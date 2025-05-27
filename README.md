@@ -11,7 +11,8 @@ Create new project
 Ran:
 
 ```bash
-cookiecutter gh:JulesU/hw1_sklearn
+cookiecutter
+ gh:JulesU/hw1_sklearn
 ```
 
 Put project under version control
@@ -21,7 +22,9 @@ Added files to my git foler
 
 ```bash
 git init
-git add .
+git add *.ipynb
+git add *.md
+git add output/*.html
 git commit -m "Initial commit"
 ```
 
@@ -35,6 +38,9 @@ git push -u origin main
 
 Version control is good.
 
+Once done with notebook, notes, and readme file changes, ran again from command line::
+
+git push -u origin main
 
 Folder structure
 -----------------
@@ -60,6 +66,6 @@ Here's the folder structure that gets created by `cookiecutter-datascience-simpl
 Documentation
 --------------
 
-
+In this very simple project structure template, I included a markdown file (notes.md) with some section headings to use for project notes.
 
 
